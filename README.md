@@ -1,6 +1,6 @@
 Capstone_Final_Project_for_SwiftKey_App
 
-At first the app may take about 60 seconds to upload
+Initially the app takes about 60 seconds to upload
 =================
 
 The purpose of this web application is to predict the next most frequently used word for a sentence or a phrase. This exercise is developed to predict based on one last word, therefore the n-gram =1. If prediction were based on two last words it would be n-gram = 2, and so on. 
