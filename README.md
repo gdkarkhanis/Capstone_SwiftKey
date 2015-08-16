@@ -1,18 +1,10 @@
-Capstone_SwiftKey
+Capstone_Final_Project_for_SwiftKey_App
 
-Please wait at least 60 seconds for the app to load if loading for first time
+At first the app may take about 60 seconds to upload
 =================
 
-This app basically takes a sentence from the user and predicts the next word.
-To create this app I have used 10% sample data from the files shared in the Coursera assignment
-For these files I read them into a Corpus and did some basic cleaning.
-The details are available here:
-http://rpubs.com/bimehta/capstone1
-After that I created TDM using different ngrams.
-Uisng those ngrams I seperated the last word from the ngram.
-Whatever text the user enters, based on the size of the text it is compared to the respective ngram and the word(s) that occur most frequently are shown in the output in decreasing order of their popularity.
-The app shows output for all n-grams from one to four and also shows the most popular word among the different outputs.
-The code is available in the repository
-
-Thanks for reviewing.
-
+The purpose of this web application is to predict the next most frequently used word for a sentence or a phrase. This exercise is developed to predict based on one last word, therefore the n-gram =1. If prediction were based on two last words it would be n-gram = 2, and so on. 
+The English language source data used here is from SwiftKey text files namely: Blogs, News and Twitter. Actually, only 10% of the data is randomly extracted and assembled in a corpus for this exercise. Normally, this panel should respond within 15 seconds for 1-gram prediction. 
+This demonstration illustrates the feasibility of the principle for the purpose of this exercise and can be easily expanded for n-gram = 2, 3, or more and is only limited for accuracy and responsiveness by the processing speed and memory size for big data.
+Additional details are provided in the Slide Deck on rPubs at the following link: 
+http:// <to be added>
